@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="no_news">No news found.</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Strings For Keyword Preference [CHAR LIMIT=30] -->
+    <string name="settings_title">News Settings</string>
+    <string name="settings_keyword_label">Keyword</string>
+    <string name="settings_keyword_key" translatable="false">min_magnitude</string>
+    <string name="settings_keyword_default" translatable="false">Sports</string>
+
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Label for order-by Newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by most oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by most relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="format_key">format</string>
+    <string name="format_value">json</string>
+    <string name="api_key">api-key</string>
+    <string name="api_value">test</string>
+    <string name="query_key">q</string>
+    <string name="show_fields_key">show-fields</string>
+    <string name="show_fields_value">thumbnail</string>
+    <string name="show_tag_key">show-tags</string>
+    <string name="show_tag_value">contributor</string>
+    <string name="order_by_key">order-by</string>
+
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+</resources>
